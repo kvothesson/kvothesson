@@ -1,33 +1,48 @@
-# kvothesson
+<p align="center">
+  <img src="assets/banner.png" alt="Hielo a la izquierda, calor a la derecha y el cristal de Kvothesson colgado de la línea de alta tensión" width="100%">
+</p>
 
-Construyo herramientas para el ecosistema argentino y un universo cyberpunk criollo.
-Casi todo corre sobre Claude Code.
+<p align="center">
+  <a href="https://kvothesson.com">kvothesson.com</a> ·
+  <a href="https://www.youtube.com/@Kvothesson">YouTube</a> ·
+  <a href="https://github.com/kvothesson/ar-plugins">ar-plugins</a>
+</p>
 
-## Lo que está vivo
+Esto es el taller. Acá se arma, se prueba y se archiva todo: apps, herramientas para Argentina,
+juegos, música generativa, los videos del canal y un universo cyberpunk criollo (Austral) que le
+da sentido a los nombres raros. Casi todo corre sobre Claude Code.
 
-**[ar-plugins](https://github.com/kvothesson/ar-plugins)** · Marketplace de plugins de Claude Code para Argentina.
-15 plugins que traen datos reales de fuentes primarias: dólar e inflación ([arca](https://github.com/kvothesson/arca)),
-trámites de ANSES y ARCA ([tramite](https://github.com/kvothesson/tramite)), paritarias y sueldos ([laburo](https://github.com/kvothesson/laburo)),
-marco legal ([derecho](https://github.com/kvothesson/derecho)), facturación de monotributo ([facturar](https://github.com/kvothesson/facturar)),
-y más. Nada de scraping de blogs: INDEC, IGN, organismos oficiales.
+## Lo que está andando
+
+| | |
+|---|---|
+| **[Tachán](https://kvothesson.com/tachan/)** | Compartís en el celu y aparece en la compu. Sin servidores. |
+| **[ar-plugins](https://github.com/kvothesson/ar-plugins)** | 15 plugins de Claude Code y Codex sobre Argentina: dólar e inflación en vivo, trámites, sueldos, derechos, salud y monotributo. Datos de fuentes oficiales, nada de blogs. |
+| **[Chasqui](https://kvothesson.com/chasqui/)** | Traductor de voz en tiempo real para Windows: llamadas en cualquier app y videos en vivo. |
+| **[Los Decretos](https://kvothesson.com/decretos/)** | Todos los presidentes argentinos en una sola voz, proponiendo políticas públicas reales. |
+| **[Radio Austral](https://kvothesson.com/radio/)** | Música generativa infinita, hecha con Strudel en el navegador. |
+| **[verbo](https://github.com/kvothesson/verbo)** | Coding agent en tu terminal a costo cero, en un solo archivo de Python. |
 
 ```
 /plugin marketplace add kvothesson/ar-plugins
 ```
 
-**[verbo](https://github.com/kvothesson/verbo)** · Coding agent en tu terminal a costo cero.
-Un solo archivo de Python, corriendo sobre tiers gratis (Groq, Gemini, OpenRouter) o Ollama local.
+## Juegos, música y video
 
-**[pombero](https://github.com/kvothesson/pombero-exe)** · Un asistente que vigila tu hardware desde las sombras.
-Guardián del sistema con personalidad folklórica.
+**[procedural-anime](https://github.com/kvothesson/procedural-anime)** · Shorts verticales estilo anime
+hechos solo con código: Blender, Python y sonido sintetizado.
 
-**[daemons](https://github.com/kvothesson/daemons-plugin)** y **[mechas](https://github.com/kvothesson/mechas-plugin)** ·
-Agentes del bestiario guaraní y mechas neuronales. Cyber folklore argentino como skills de sistema.
+**[Ruta 404](https://kvothesson.com/ruta-404/)** · Exploración en canvas 2D del universo Austral.
 
-## El cementerio, que también sirve
+**[Babel](https://kvothesson.com/babel/)** · La Biblioteca de Babel, navegable en 3D.
 
-Este perfil tiene repos viejos que no borro, porque son el registro de cómo se llegó a lo de arriba.
-Casi todo lo que hay acá son cuatro ideas intentadas muchas veces:
+**[aparecidos](https://github.com/kvothesson/aparecidos)**, **[daemons](https://github.com/kvothesson/daemons-plugin)** y
+**[pombero](https://github.com/kvothesson/pombero-exe)** · El bestiario del folklore metido en la compu.
+
+## El archivo, que también sirve
+
+Acá hay repos viejos que no borro, porque son el registro de cómo se llegó a lo de arriba.
+Casi todos son cuatro ideas intentadas muchas veces:
 
 **"Un LLM que lee tu repo y hace algo con eso"** se intentó siete veces entre 2024 y 2025:
 `adhmcr`, `repo-scribe`, `repo-whisper`, `file-whisperer`, y tres más que quedaron privadas.
@@ -47,8 +62,3 @@ Esa sí escaló, y es la mitad de lo que hace `ar-plugins` hoy.
 
 Siete intentos de lo mismo antes de encontrar el envase correcto. Lo dejo escrito porque el
 recorrido es más útil que el resultado.
-
-## Afuera de GitHub
-
-Canal de YouTube donde cruzo folklore argentino con IA generativa, y un universo narrativo
-(Austral) que le da sentido a los nombres raros de la mitad de estos repos.
