@@ -8,6 +8,10 @@
   <a href="https://github.com/kvothesson/ar-plugins">ar-plugins</a>
 </p>
 
+<p align="center"><sub><i>Workshop of an Argentine maker: apps, games, generative music and code-only video.
+Most things are in Spanish; <a href="https://github.com/kvothesson/chasqui">Chasqui</a> and
+<a href="https://github.com/kvothesson/procedural-anime">procedural-anime</a> are documented in English.</i></sub></p>
+
 Esto es el taller. Acá se arma, se prueba y se archiva todo: apps, herramientas para Argentina,
 juegos, música generativa, los videos del canal y un universo cyberpunk criollo (Austral) que le
 da sentido a los nombres raros. Casi todo corre sobre Claude Code.
